@@ -4,6 +4,7 @@
     <meta name="description" content="Adam Gibbons - Outdoorsman, Colorado Buffalo, DC native, and web developer at Moveline, a TechStars NYC startup."/>
     <meta name="keywords" content="Adam Gibbons, web design, web development, biped design, personal site."/>
     <link href='http://fonts.googleapis.com/css?family=Nixie+One|Changa+One|Oxygen' rel='stylesheet' type='text/css'>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
     <style type="text/css">
         body {
             margin: 0;
@@ -13,7 +14,7 @@
             background: url(images/mochaGrunge.png);
         }
         .container{
-            width: 400px;
+            width: 500px;
             color:#111;
             font-family:helvetica;
             font-size: 1.33em;
@@ -21,13 +22,39 @@
             margin: 1em auto 0;
             font-family: 'Oxygen', sans-serif;
         }
+        .social-icons{
+            text-align:right;
+            margin: 1em;
+        }
+        .social-icons li{
+            display:inline;
+            margin-left: .5em;
+            font-size: 1.4em;
+        }
+        .social-icons li a{
+            color: black;
+            text-decoration:none;
+            font-size: 1em;
+        }
+        .social-icons li a:hover{
+            color:orange;
+        }
+        #adam-gibbons-cartoon{
+            float:left;
+            width: 165px;
+        }
+        #adam-gibbons-cartoon img {
+            width: 100%;
+        }
         .container h1{
             font-family: 'Changa One', cursive;
             color: #222;
             font-size: 3em;
             text-align: right;
             line-height: .9em;
-
+            position:relative;
+            top:1em;
+            margin-bottom: 2.6em;
         }
         .container a{
             color: orange;
@@ -36,22 +63,28 @@
         .container a:hover{
             color:orange;
         }
-        .container img{
-            margin-right: 1.5em;
-            height: 330px;  
+        .clearfix{
+            clear:both;
         }
     </style>
 </head>
 <body>
+    <ul class="social-icons">
+        <li><a href="mailto:adam.d.gibbons@gmail.com"><i class="icon-envelope"></a></i></li>
+        <li><a href="https://www.facebook.com/Adam.D.Gibbons?ref=tn_tnmn"><i class="icon-facebook"></a></i></li>
+        <li><a href="https://twitter.com/adamdgibbons"><i class="icon-twitter"></a></i></li>
+        <li><a href="https://github.com/adamgibbons"><i class="icon-github"></a></i></li>
+        <li><a href="http://www.linkedin.com/profile/view?id=83042737&trk=tab_pro"><i class="icon-linkedin"></a></i></li>
+    </ul>
     <div class="container">
+        <div id="adam-gibbons-cartoon"><img src="images/adam-gibbons.png" /></div>
         <h1>adam<br>GIBBONS</h1>
-        <div style="text-align:center"><img src="images/adam-gibbons.png"></div>
-        <p>Born and bred in <a href="http://dcist.com/">Washington, DC.</a></p>
-        <p><a href="http://colorado.edu">Schooled</a> in the Colorado Rockies.</p>
-        <p>Lost and found in <a href="http://en.wikipedia.org/wiki/Santa_Cruz,_California">Santa Cruz</a>, California.</p>
-        <p>Alive and well in <a href="http://narrative.ly/">New York City</a>.</p>
-        <p>Software developer at <a href="http://moveline.com">Moveline</a>. Exciting stuff at <a href="http://biped-design.com">Biped Design</a>.</p>
+        <p class="clearfix">Born and bred in <a target="_blank" href="http://dcist.com/">Washington, DC.</a></p>
+        <p><a target="_blank" href="http://colorado.edu">Schooled</a> in the Colorado Rockies.</p>
+        <p>Lost and found in <a target="_blank" href="http://en.wikipedia.org/wiki/Santa_Cruz,_California">Santa Cruz</a>, California.</p>
+        <p>Alive and well in <a target="_blank" href="http://narrative.ly/">New York City</a>.</p>
+        <p>Software developer at <a target="_blank" href="http://moveline.com">Moveline</a>. Exciting stuff at <a target="_blank" href="http://biped-design.com">Biped Design</a>.</p>
+        
     </div>
 </body>
 </html>
-
