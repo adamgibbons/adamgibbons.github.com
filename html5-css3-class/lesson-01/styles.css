@@ -1,0 +1,38 @@
+body {
+  background-color: #0D4E6C;
+  color: #eee;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: helvetica, sans-serif;
+  margin: 2em 0;
+  padding: 0;
+}
+
+.content {
+  width: 1024px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2.1em;
+  font-family: georgia, serif;
+  color: #1993CC;
+}
+
+h2 {
+  font-weight: 400;
+  color: #eee;
+}
+
+.metadata {
+  color: #aaa;
+  font-size: .8em;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.speech {
+  background-color: #36687F;
+  padding: 1em 2em;
+  margin: 2.5em 0;
+}
