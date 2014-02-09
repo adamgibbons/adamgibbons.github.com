@@ -87,8 +87,13 @@
         <p>Lost and found in <a target="_blank" href="http://en.wikipedia.org/wiki/Santa_Cruz,_California">Santa Cruz</a>, California.</p>
         <p>Alive and well in <a target="_blank" href="http://narrative.ly/">New York City</a>.</p>
         <p>Software developer at <a target="_blank" href="http://moveline.com">Moveline</a>.</p>
-        
     </div>
+
+    <form method="POST">
+        <input type="hidden" name="consumer_key" value="16391-4af2d05203c8d183661eb7f9">
+        <input type="hidden" name="redirect_uri" value="http://www.agibbons.com">
+        <input type="submit" value="Submit">
+    </form>
 
     <!-- Google analytics -->
     <script type="text/javascript">
@@ -106,23 +111,23 @@
     </script>
 
     <script>
-        var data = {
-            consumer_key: "16391-4af2d05203c8d183661eb7f9",
-            redirect_uri: "http://www.agibbons.com"
-        };
-        $.ajax({
-            type: 'POST',
-            url: 'https://getpocket.com/v3/oauth/request',
-            contentType: 'application/json; charset=UTF-8',
-            accepts: 'application/json',
-            data: data,
-            success: function(res) {
-                console.log("success! ", res);
-            },
-            error: function(err) {
-                console.log("error... ", err);
-            }
-        });
+    //     var data = {
+    //         consumer_key: "16391-4af2d05203c8d183661eb7f9",
+    //         redirect_uri: "http://www.agibbons.com"
+    //     };
+    //     $.ajax({
+    //         type: 'POST',
+    //         url: 'https://getpocket.com/v3/oauth/request',
+    //         contentType: 'application/json; charset=UTF-8',
+    //         accepts: 'application/json',
+    //         data: data,
+    //         success: function(res) {
+    //             console.log("success! ", res);
+    //         },
+    //         error: function(err) {
+    //             console.log("error... ", err);
+    //         }
+    //     });
     </script>
 
 </body>
