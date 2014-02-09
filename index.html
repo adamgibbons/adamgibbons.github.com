@@ -14,25 +14,43 @@
     
     <style type="text/css">
         body {
-            background-color: #2682D5;
-            background-color:#1D6AAD;
-            color: #71B1E4;
-            color: white;
+            background-color:#1EA44B;
+
+            color: #eee;
             font-family: 'Oxygen', sans-serif;
+            font-size: 16px;
             /*background: url(images/mochaGrunge.png);*/
         }
+        h1 {
+            margin-top: .9em;
+            font-size: 2.33em;
+        }
+        h2 {
+            /*color: #CBFFE4;*/
+        }
+        a {
+            color: #EEBB00;
+            /*color: #86FFB9;*/
+        }
         .social-icons{
-            text-align:right;
             margin: 1em;
+            margin-left: 0;
+            padding-left: 0;
+            font-size: 2em;
+            text-align: left;
         }
         .social-icons li{
             display:inline;
-            margin-left: .5em;
-            font-size: 1.4em;
+            margin-right: 1em;
+            margin-left: 0;
         }
         .social-icons li a{
             text-decoration:none;
             font-size: 1em;
+            color: #6AC68C;
+        }
+        .social-icons li a:hover{
+            color: #EEBB00;
         }
         #adam-gibbons-cartoon img {
             max-width: 165px;
@@ -40,38 +58,49 @@
         .align-center {
             text-align: center;
         }
-
+        .align-right {
+            text-align: right;
+        }
     </style>
 </head>
 <body>
-        <ul class="social-icons">
-            <li><a href="mailto:adam.d.gibbons@gmail.com"><i class="icon-envelope"></a></i></li>
-            <li><a href="https://www.facebook.com/Adam.D.Gibbons?ref=tn_tnmn"><i class="icon-facebook"></a></i></li>
-            <li><a href="https://twitter.com/adamdgibbons"><i class="icon-twitter"></a></i></li>
-            <li><a href="https://github.com/adamgibbons"><i class="icon-github"></a></i></li>
-            <li><a href="http://www.linkedin.com/profile/view?id=83042737&trk=tab_pro"><i class="icon-linkedin"></a></i></li>
-        </ul>
+
     <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-md-offset-2">
+                <h1 class="align-center">adam gibbons</h1>
+            </div>
+            <div class="col-md-5">
+                <ul class="social-icons">
+                    <li><a href="mailto:adam.d.gibbons@gmail.com"><i class="icon-envelope"></a></i></li>
+                    <li><a href="https://www.facebook.com/Adam.D.Gibbons?ref=tn_tnmn"><i class="icon-facebook"></a></i></li>
+                    <li><a href="https://twitter.com/adamdgibbons"><i class="icon-twitter"></a></i></li>
+                    <li><a href="https://github.com/adamgibbons"><i class="icon-github"></a></i></li>
+                    <li><a href="http://www.linkedin.com/profile/view?id=83042737&trk=tab_pro"><i class="icon-linkedin"></a></i></li>
+                </ul>
+            </div>
+        </div>
 
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-md-offset-2 col-sm-4 align-center">
-                    <h1>adam<br>GIBBONS</h1>
-                    <div id="adam-gibbons-cartoon"><img src="images/adam-gibbons.png" /></div>
+        <br>
+        <br>
+
+        <div class="row">
+            <div class="col-md-3 col-md-offset-2 col-sm-4 align-center">
+                <div id="adam-gibbons-cartoon">
+                    <img src="images/adam-gibbons.png" />
                 </div>
-                <div class="col-md-5 col-sm-4">
-                    <h2>Howdy</h2>
-                    <p>I'm a web developer at <a href="https://www.moveline.com" target="_blank">Moveline</a>. I split my time between  Downtown Las Vegas, Nevada, home to the healthy and growing <a href="https://twitter.com/search?q=%23VegasTech&src=hash" target="_blank">#VegasTech scene, and Richmond, Virginia</a>. I spend most of my time learning, breaking, and shipping code on the MEAN stack (Mongo/Express/Angular/Node - preferably in CoffeeScript), but when nobody's watching I sneak off and play with Ruby or Haskell.</p>
-                    <p>I'm always down for coffee, beer, and hacking, so ping me if you're in Vegas or VA.</p>
+            </div>
+            <div class="col-md-5 col-sm-4">
+                <h2>howdy</h2>
+                <p>I'm a web developer at <a href="https://www.moveline.com" target="_blank">Moveline</a>. I split my time between  Downtown Las Vegas, Nevada, home to the healthy and growing <a href="https://twitter.com/search?q=%23VegasTech&src=hash" target="_blank">#VegasTech scene, and Richmond, Virginia</a>. I spend most of my time learning, breaking, and shipping code on the MEAN stack (Mongo/Express/Angular/Node - preferably in CoffeeScript), but when nobody's watching I sneak off and play with Ruby or Haskell.</p>
+                <p>I'm always down for coffee, beer, and hacking, so ping me if you're in Vegas or VA.</p>
 
-                    <h2>Playground</h2>
-                    <p>Here are a couple random projects I've thrown together recently:</p>
-                    <ul>
-                        <li><a href="angular-binary-clock" target="_blank">binary clock in Angular.js</a></li>
-                        <li><a href="british-translator" target="_blank">American-British English translator</a></li>
-                    </ul>
-
-                </div>
+                <h2>playground</h2>
+                <p>Here are a couple random projects I've thrown together recently:</p>
+                <ul>
+                    <li><a href="angular-binary-clock" target="_blank">binary clock in Angular.js</a></li>
+                    <li><a href="british-translator" target="_blank">American-British English translator</a></li>
+                </ul>
             </div>
         </div>
     </div>
