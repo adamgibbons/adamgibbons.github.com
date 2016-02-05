@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/adamgibbons
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://agibbons.com
+  * I am adamgibbons (https://keybase.io/adamgibbons) on keybase.
+  * I have a public key with fingerprint EF86 38B3 91C3 B077 B4E2  5105 C91C 0097 EAE2 C8F8
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010135a5a791f724c06d2f916638992f136971824be1868a722a5dfc29bcd86d94ac0a",
+            "fingerprint": "ef8638b391c3b077b4e25105c91c0097eae2c8f8",
+            "host": "keybase.io",
+            "key_id": "c91c0097eae2c8f8",
+            "kid": "010135a5a791f724c06d2f916638992f136971824be1868a722a5dfc29bcd86d94ac0a",
+            "uid": "80fe45e64f41af65fcce664850021819",
+            "username": "adamgibbons"
+        },
+        "service": {
+            "hostname": "agibbons.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1454706052,
+    "expire_in": 157680000,
+    "prev": "0978abdc905625c92dead6e45e016a57bb537e46bd2fb9d519fdbb8f4a27beb5",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.49
+Comment: https://keybase.io/crypto
+
+yMNAAnicrVJrTBxVGF1KuwWUUjUKDYWQaSqwUJiZndddiwhoU0gfIIKwVTdzZ+4s
+I7Cz3QdIt9A0oFhMirHaZrWUlmrrBhoQUhdskABa21AflEd91NJQGxoQBbMpWEJ1
+hrT//On9c3O/75xzz3fyfRUerAsLurxRd2x68tJi0FC/160rPB9e58GgIlZhJg9W
+ilYuVCYip8tSKouYCcMJnDDSPM2zgJBYkhJwRiQlQDCMkQOAlAgjA1iCIymICI7h
+eJYkeVqUBBJAQeQYEVC8gPNYMibJNity2B2yzaXKIolTBaAREIIR4iwLKUTSBE4L
+agHHAYt4RAqcxKnEEsWpMVRzkHeiFFlRa+rDsmLvP/D/s2/3ihyHS4iiEUNJFMFL
+DC0JAmIYiqNxnCQ4AmhAJ3LY+HKkonmRL7fKECo2J1adjKmNCllAWrbaMA9BDxAp
+glKu0u0OxaUISpnaKXG57CaN6Kqya8hKBC0PNCxQtolqkiqhAjmcsmLDTISKFFyy
+JkpQNMXiDE6TyRh6wy47kEXWEDTLcLh6tG9QhRYPYDkeigLAaYZUUydFxIuMNiJO
+MDzNQkgbWUQxUA0NApEmgCRCyEkUT7IQQRrTptprUzATq9rkraqkU7baeJfbgbDq
+gf5XVuuCwnT6Nau0DdOFha5/uHe0b71urK239rl4+yrPlh2D3Pyyfzz1MXL8kWfL
+qoyBoQSQee5Kb/mR0G3nXojp9MD0nr6s+zPmmgWHWf9uTsra2muxvmdGzjzVlVPE
+vlrp8JWlRHf3rl7Uf3Fkap2hMWQTF3nm6mdL2/bXbfgkv2Om4XbL/jR9Y8ZSWnx0
+0uyGtOOu2HWJeqymL4QtNoS/eW37SFPeS0knFr/r9M6nbv72bLG3NS3i8wQ60ht5
+3SDcmOqNWH5rzh/xT+/rN4ijm8f2pHn/OPD1ROvcZPefTel9+sy7vsDWH4c3ug89
+uqvh05up7x243NwQZRgdqE/I/fC1e6T+iX3Y40uhFzuHR9syggysrykqH/MvPB/d
+XmrcGdfeEyz8Kl0wG+7WJ29f5H6/tSUYJlZc8C/Xn2KfLsq+px/dk2uL+Lk9V9+8
+NiTQEzjUwR9cQ/9ySt4xc7RNLnp50DfTkNA6X9P8tr8xcOf0SXc0Kj42vi94MLYg
+9MuM32ZnC0DtDx9Pm8Truy7GD5s7FjYV2N13ut8paQYT3tt53VfmdSAnMS55+Oy0
+8tHJ94UeZu9y1nl0egr4Ow8bwWzQ7ur+E9RIbmFl9tJh/1y2eQDP3T1p+uCvvIWU
+qLoJ0JLeF3610dDSmfRi/s6FzJh5nLyp6ystKZ+wevOGY7I8T/50aeh44Zgr/GDc
+3/e/t3bd6vKYBrdS3/wLUh6+4A==
+=orZw
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/adamgibbons
+
+==================================================================
